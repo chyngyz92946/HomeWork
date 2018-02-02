@@ -1,8 +1,8 @@
 import vk_api
 import time
 
-vk = vk_api.VkApi(token='пока без ключа')
-vk.auth()
+vk = vk_api.VkApi(token='3881b2fa09a292b0e7ebcb2ade126f78f99768cbc3698aca4583fb12bd220628e99b6d61002bf2cc3e7b1')
+vk._auth_token()
 
 values = {'out': 0, 'count': 100, 'time_offset': 60}
 response = vk.method('messages.get', values)
