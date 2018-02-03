@@ -21,8 +21,6 @@ def kill(src, file_name):
 
 print(kill('.', 'txt.txt'))
 
-print(kill('.', 'txttxt.txt'))
-
 
 while True:
     now = datetime.datetime.now()   # показывает время
