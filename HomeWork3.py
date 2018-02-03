@@ -21,7 +21,6 @@ def kill(src, file_name):
 
 print(kill('.', 'txt.txt'))
 
-
 while True:
     now = datetime.datetime.now()   # показывает время
     time.sleep(1)   # задержка в 1 секунду
