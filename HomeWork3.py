@@ -19,7 +19,7 @@ def kill(src, file_name):
             kill(i, file_name)
             os.chdir('../')
 
-print(kill('.', 'txt.txt'))
+print(kill('.', 'textfile.txt'))
 
 while True:
     now = datetime.datetime.now()   # показывает время
